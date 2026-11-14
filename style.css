@@ -245,7 +245,7 @@ button:hover, .button-link:hover { background: #73554b; border-color: #73554b; c
 }
 
 .logo img {
-    height: 36px; /* Altura da imagem da logo */
+    height: 42px; 
     width: auto;
     object-fit: contain;
 }
