@@ -232,3 +232,20 @@ button:hover, .button-link:hover { background: #73554b; border-color: #73554b; c
     html { scroll-behavior: auto; }
     *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre a logo e o texto */
+    color: var(--cor-destaque);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 36px; /* Altura da imagem da logo */
+    width: auto;
+    object-fit: contain;
+}
