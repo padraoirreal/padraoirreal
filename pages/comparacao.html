@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Padrão Irreal: conteúdo educativo sobre imagens, filtros e percepção.">
+    <title>Antes e depois | Padrão Irreal</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo</a>
+    
+    <header>
+        <nav aria-label="Navegação principal">
+            <a class="logo" href="../index.html">Padrão Irreal</a>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="distorcao.html">Entenda</a></li>
+                <li><a href="laboratorio.html">Laboratório</a></li>
+                <li><a href="desafios.html">Desafios</a></li>
+                <li><a href="comparacao.html" class="active">Antes × Depois</a></li>
+                <li><a href="glossario.html">Glossário</a></li>
+                <li><a href="acolhimento.html">Acolhimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo-principal" class="inner-page">
+        <section class="inner-hero">
+            <p class="tag">04 — OBSERVE</p>
+            <h1>Antes × Depois</h1>
+            <p>Movimente o controle para comparar duas imagens e observar como ajustes podem mudar a percepção visual.</p>
+        </section>
+
+        <section class="content-panel">
+            <p class="tag">COMPARAÇÃO INTERATIVA</p>
+            <h2>Deslize para comparar</h2>
+            
+            <div class="comparison-container">
+                <span class="comparison-label original">ORIGINAL</span>
+                <span class="comparison-label alterada">ALTERADA</span>
+                <!-- Certifique-se de que a pasta 'imagens' existe na raiz do projeto com esses arquivos -->
+                <img src="../imagens/imagem-original.jpg" alt="Imagem original para comparação">
+                <img src="../imagens/imagem-alterada.jpg" id="imagem-alterada" alt="Versão alterada da imagem para comparação">
+            </div>
+
+            <label for="controle-comparacao" style="display: block; margin-top: 15px; font-weight: 500; font-size: 14px;">Controle de comparação</label>
+            <input type="range" id="controle-comparacao" min="0" max="100" value="50">
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Padrão Irreal — Projeto educativo. | <a href="contato.html" style="color: inherit; text-decoration: underline;">Contato</a></p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
